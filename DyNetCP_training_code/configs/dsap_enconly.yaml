@@ -1,0 +1,35 @@
+
+
+data:
+  data_splits: ['train', 'val']
+
+model:
+  encoder_only: True
+  decoder_only: False
+  l2_coef: 1.0e-3
+  embedder:
+    type: rnn
+    num_layers: 1
+    embedding_size: 64
+    use_fourier_encoding: True
+    shift_spikes: True
+    fourier_encoding_width: 64
+    fourier_encoding_std: 0.5
+  encoder:
+    node_embed_size: 16
+    positional_encoding_size: 128
+    node_embed_size: 64
+    init_gain: 0.1
+    no_self: True
+  decoder:
+    no_static: False
+
+training:
+  batch_size: 16
+  clip_grad_norm: 5
+  lr: 1.0e-4
+  use_adam: True
+  num_epochs: 2000
+  lr_decay_type: step
+  lr_decay_factor: 0.1
+  lr_decay_steps: 1000

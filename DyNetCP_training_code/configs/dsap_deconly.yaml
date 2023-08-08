@@ -1,0 +1,32 @@
+
+
+data:
+  data_splits: ['train', 'val']
+
+num_edge_types: 5
+model:
+  encoder_only: False
+  decoder_only: True
+  l2_coef: 1.0e-2
+  embedder:
+    type: rnn
+    num_layers: 1
+    embedding_size: 64
+  encoder:
+    type: None
+    no_self: True
+  decoder:
+    type: glm_conv_withsync
+    no_static: False
+    init_random_uniform: 0.01
+
+training:
+  batch_size: 16
+  clip_grad_norm: 5
+  lr: 1.0e-4
+  use_adam: True
+  num_epochs: 2000
+  lr_decay_type: step
+  lr_decay_factor: 0.1
+  lr_decay_steps: 1000
+  early_stopping_iters: 100
