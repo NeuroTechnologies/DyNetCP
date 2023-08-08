@@ -1,4 +1,4 @@
-Codes for traing and analasing Dynamic Network Connectivity Predictor
+Codes for traing and analising Dynamic Network Connectivity Predictor
 This codebase accompanies the paper "Discovery of latent dynamic connectivity in brain cortical networks from massive spiking data" 
 Colin Gaber, Yurii Vlasov, and Alexander Schwing
 
