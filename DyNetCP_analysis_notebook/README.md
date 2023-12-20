@@ -3,7 +3,8 @@ Notebook aggregates the analysis of the results of the unsupervised latent varia
 
 https://www.biorxiv.org/content/10.1101/2023.08.08.552512
 
-Accompanying datasets are available for download at Figshare https://figshare.com/projects/819701982/189921
+Accompanying datasets are available for download at Figshare 
+https://doi.org/10.6084/m9.figshare.24878850
 
 
 
