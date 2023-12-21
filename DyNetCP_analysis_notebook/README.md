@@ -1,5 +1,6 @@
-Master code for plotting and analyzing the DyNetCP model results
-Notebook aggregates the analysis of the results of the unsupervised latent variable model - Dynamic Network Connectivity Predictor (DyNetCP). 
+Master code for plotting and analyzing the DyNetCP model results.
+
+This Jupyter notebook aggregates the analysis of the results of the unsupervised latent variable model - Dynamic Network Connectivity Predictor (DyNetCP). 
 
 https://www.biorxiv.org/content/10.1101/2023.08.08.552512
 
